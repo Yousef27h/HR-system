@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HR-system</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>HR system</h1>
+    </header>
+    <main>
+        <section id="formSec">
+            <h2>Add Employee</h2><br><br>
+            <form id="formId">
+                <label for="name">Name</label><br>
+                <input type="text" id="name"><br>
+
+                <label for="email">Email</label><br>
+                <input type="text" id="email"><br>
+
+                <label for="department">Department</label><br>
+                <select name="department" id="department">
+                    <option value="Call-Center">Call-Center</option>
+                    <option value="Information-Technology">Information-Technology</option>
+                    <option value="Human-Resources">Human-Resources</option>
+                </select><br><br>
+                <input type="submit" value="submit" style="width: 188px;">
+            </form>
+        </section>
+        <section id="tableSec">
+            <table id="tableId">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                </tr>
+            </table>
+        </section>
+    
+    </main>
+    <footer>
+        <h4>&copy; ASAC 201d19 Team</h4>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>

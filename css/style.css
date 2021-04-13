@@ -1,0 +1,69 @@
+body{
+    background-image: url(../img/bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    background-color: #00000096;
+}
+h1{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+main{
+    height: 640px;
+}
+#formSec{
+    float: left;
+    background-color: #00000096;
+    color: #fff;
+    padding: 60px;
+    margin-left: 300px;
+    margin-top: 50px;
+}   
+h2{
+    text-align: center;
+    font-size: 24px;
+}
+#formSec input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 180px;
+}
+#formSec select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#tableSec{
+    float: left;
+    background-color: #00000096;
+    color: #fff;
+    padding: 60px;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+td,th{
+    border: #fff solid 2px;
+    padding: 10px;
+}
+#tableSec p{
+    margin-top: 35px;
+    border: #fff solid 2px;
+    width: 100px;
+    padding: 15px;
+    text-align: center;
+}
+footer{
+    clear: both;
+    text-align: center;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
